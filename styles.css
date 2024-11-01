@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* Light background for better contrast */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white; /* Change to white for better visibility */
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+}
+
+h1 {
+    text-align: center;
+    color: #0036ca; /* Consistent heading color */
+}
+
+.input-group, .coordinates {
+    margin-bottom: 15px; /* Space between input groups */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center;
+    justify-content: space-between; /* Space elements evenly */
+}
+
+label {
+    margin-right: 10px; /* Space between label and input */
+}
+
+input {
+    flex: 1; /* Take up remaining space */
+    margin: 0 5px; /* Space between inputs and buttons */
+    padding: 10px; /* Increased padding for better touch targets */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+input:focus {
+    border-color: #0036ca; /* Highlight input border on focus */
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #0036ca;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for button color */
+}
+
+button:hover {
+    background-color: #002e91; /* Darken on hover */
+}
+
+.weather-data {
+    margin-top: 20px;
+    padding: 15px;
+    background: #e9ecef;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+table {
+    width: 100%; /* Make table full width */
+    border-collapse: collapse; /* Remove gaps between cells */
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #0036ca; /* Header background color */
+    color: white; /* Header text color */
+}
